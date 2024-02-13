@@ -8,7 +8,9 @@ set clipboard+=unnamed "use system clipboard
 set ignorecase
 set smartcase "capital case for case sensitive
 set incsearch "immediately search as you type
-set hlsearch
 
-set surround "som i nvim surround, cs to change surrounding delimeters; eg. cs"'
+set surround "som i nvim surround, cs to change surrounding delimeters; visual mode + S' og ysiw( funker også
 set highlightedyank
+
+nnoremap <A-j> :m .+1<CR>==
+nnoremap <A-k> :m .-2<CR>
