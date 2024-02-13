@@ -3,11 +3,12 @@ set linenumber
 set showmode
 set showcmd
 set visualbell
-set clipboard+=unnamed
+set clipboard+=unnamed "use system clipboard
 
 set ignorecase
-set smartcase
-set incsearch
+set smartcase "capital case for case sensitive
+set incsearch "immediately search as you type
 set hlsearch
 
 set surround "som i nvim surround, cs to change surrounding delimeters; eg. cs"'
+set highlightedyank
