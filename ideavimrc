@@ -1,0 +1,13 @@
+set scrolloff=10
+set linenumber
+set showmode
+set showcmd
+set visualbell
+set clipboard+=unnamed
+
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
+
+set surround "som i nvim surround, cs to change surrounding delimeters; eg. cs"'
