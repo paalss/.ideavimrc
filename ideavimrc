@@ -12,5 +12,7 @@ set incsearch "immediately search as you type
 set surround "som i nvim surround, cs to change surrounding delimeters; visual mode + S' og ysiw( funker også
 set highlightedyank
 
+set nerdtree
+
 nnoremap <A-j> :m .+1<CR>==
 nnoremap <A-k> :m .-2<CR>
