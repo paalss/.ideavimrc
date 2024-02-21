@@ -8,6 +8,7 @@ set clipboard+=unnamed "use system clipboard
 set ignorecase
 set smartcase "capital case for case sensitive
 set incsearch "immediately search as you type
+" set inccommand=nosplit " funker ikke i ideavim
 
 set surround "som i nvim surround, cs to change surrounding delimeters; visual mode + S' og ysiw( funker også
 set highlightedyank
