@@ -1,5 +1,8 @@
 let mapleader = " "
 
+set number                     " Show current line number
+set relativenumber             " Show relative line numbers
+
 set scrolloff=10
 set linenumber
 set showmode
