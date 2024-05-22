@@ -27,7 +27,7 @@ nnoremap <A-k> :m .-2<CR>
 nnoremap <Leader>q :q<CR>
 
 " Write/save
-nnoremap <Leader>w :w<CR>
+nnoremap <Leader>ww :w<CR>
 
 " Write all files
 nnoremap <Leader>wa :wa<CR>
