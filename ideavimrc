@@ -40,3 +40,31 @@ nnoremap <Leader>x :x<CR>
 
 " Source fiLe
 nnoremap <Leader>so :so %<CR>
+
+" Define key mappings for different modes
+let modes = ['n', 'i', 'v', 'x', 'o', 't', '!']
+
+" Map <A-2> to @ with description "At"
+for mode in modes
+    execute mode . 'noremap <A-2> @'
+endfor
+
+" Map <A-3> to ~ with description "Tilde"
+for mode in modes
+    execute mode . 'noremap <A-3> ~'
+endfor
+
+" Map <A-4> to $ with description "Dollar sign"
+for mode in modes
+    execute mode . 'noremap <A-4> $'
+endfor
+
+" Map <A-5> to % with description "Percent"
+for mode in modes
+    execute mode . 'noremap <A-5> %'
+endfor
+
+" Map <A-|> to ` with description "Backtick"
+for mode in modes
+    execute mode . 'noremap <A-\|> `'
+endfor
