@@ -23,6 +23,9 @@ set nerdtree
 nnoremap <A-j> :m .+1<CR>==
 nnoremap <A-k> :m .-2<CR>
 
+nnoremap <Leader>o o<Esc>
+nnoremap <Leader>O O<Esc>
+
 " Quit
 nnoremap <Leader>q :q<CR>
 
